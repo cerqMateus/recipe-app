@@ -1,0 +1,644 @@
+{
+  "receitas": [
+    {
+      "nome": "Pão de Queijo",
+      "descricao": "Deliciosos pãezinhos de queijo, crocantes por fora e macios por dentro!",
+      "ingredientes": [
+        "2 xícaras de polvilho doce",
+        "1 xícara de leite",
+        "1/2 xícara de óleo",
+        "1 ovo",
+        "1 xícara de queijo meia cura ralado",
+        "1 colher (chá) de sal"
+      ],
+      "modoPreparo": [
+        "1. Pré-aqueça o forno a 180°C.",
+        "2. Em uma panela, aqueça o leite com o óleo e o sal até ferver.",
+        "3. Coloque o polvilho em uma tigela e despeje a mistura quente, mexendo bem.",
+        "4. Acrescente o ovo e o queijo, misturando até formar uma massa homogênea.",
+        "5. Faça bolinhas e coloque em uma forma untada.",
+        "6. Asse por 20-25 minutos até dourarem."
+      ],
+      "informacoesAdicionais": "Rendimento: aproximadamente 30 unidades. Sirva quentinho!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Brigadeiro",
+      "descricao": "O docinho mais amado do Brasil, perfeito para festas e sobremesas!",
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "2 colheres (sopa) de chocolate em pó",
+        "1 colher (sopa) de manteiga",
+        "Chocolate granulado para decorar"
+      ],
+      "modoPreparo": [
+        "1. Em uma panela, misture o leite condensado, o chocolate em pó e a manteiga.",
+        "2. Leve ao fogo baixo, mexendo sem parar até desgrudar do fundo da panela.",
+        "3. Deixe esfriar e faça bolinhas com as mãos untadas.",
+        "4. Passe no chocolate granulado."
+      ],
+      "informacoesAdicionais": "Rendimento: cerca de 20 brigadeiros. Dica: pode ser servido em copinhos também!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Feijoada",
+      "descricao": "O prato mais tradicional do Brasil, perfeito para reunir a família!",
+      "ingredientes": [
+        "500g de feijão preto",
+        "300g de carne seca",
+        "200g de linguiça calabresa",
+        "150g de paio",
+        "100g de costelinha de porco",
+        "2 folhas de louro",
+        "4 dentes de alho",
+        "1 cebola grande",
+        "Sal a gosto"
+      ],
+      "modoPreparo": [
+        "1. Deixe o feijão de molho por 12 horas e as carnes por 6 horas.",
+        "2. Cozinhe o feijão na pressão por 20 minutos.",
+        "3. Em outra panela, cozinhe as carnes até ficarem macias.",
+        "4. Refogue o alho e cebola, junte as carnes e o feijão com seu caldo.",
+        "5. Cozinhe em fogo baixo por 1 hora, ajustando o sal."
+      ],
+      "informacoesAdicionais": "Sirva com arroz branco, couve refogada, farofa e laranja. Rendimento: 6 porções.",
+      "imageURL": ""
+    },
+    {
+      "nome": "Moqueca de Peixe",
+      "descricao": "Receita capixaba deliciosa, cheia de sabor e cores vibrantes!",
+      "ingredientes": [
+        "1kg de peixe branco em postas",
+        "2 cebolas grandes em rodelas",
+        "2 tomates em rodelas",
+        "1 pimentão verde em rodelas",
+        "1 pimentão vermelho em rodelas",
+        "1 xícara de coentro",
+        "200ml de leite de coco",
+        "Azeite de dendê",
+        "Suco de 1 limão",
+        "Sal e pimenta a gosto"
+      ],
+      "modoPreparo": [
+        "1. Tempere o peixe com sal, pimenta e suco de limão por 30 minutos.",
+        "2. Em uma panela de barro, faça camadas com cebola, tomate, pimentão e peixe.",
+        "3. Regue com azeite de dendê e leve ao fogo médio por 20 minutos.",
+        "4. Acrescente o leite de coco e cozinhe por mais 10 minutos.",
+        "5. Finalize com coentro picado."
+      ],
+      "informacoesAdicionais": "Sirva com arroz branco e pirão. Rendimento: 6 porções.",
+      "imageURL": ""
+    },
+    {
+      "nome": "Bolo de Fubá",
+      "descricao": "Bolo fofinho e dourado, perfeito para o café da tarde!",
+      "ingredientes": [
+        "3 ovos",
+        "2 xícaras de açúcar",
+        "2 xícaras de fubá",
+        "3 colheres (sopa) de farinha de trigo",
+        "1/2 xícara de óleo",
+        "1 xícara de leite",
+        "1 colher (sopa) de fermento em pó"
+      ],
+      "modoPreparo": [
+        "1. Bata os ovos com o açúcar até clarear.",
+        "2. Acrescente o óleo e o leite, alternando com os ingredientes secos.",
+        "3. Por último, adicione o fermento.",
+        "4. Despeje em forma untada e enfarinhada.",
+        "5. Asse em forno médio (180°C) por 40 minutos."
+      ],
+      "informacoesAdicionais": "Fica delicioso acompanhado de um café fresquinho! Rendimento: 10 porções.",
+      "imageURL": ""
+    },
+    {
+      "nome": "Coxinha",
+      "descricao": "Salgadinho crocante por fora e cremoso por dentro, irresistível!",
+      "ingredientes": [
+        "2 xícaras de frango desfiado",
+        "2 xícaras de água",
+        "2 xícaras de leite",
+        "3 xícaras de farinha de trigo",
+        "1 tablete de caldo de galinha",
+        "1 cebola picada",
+        "2 dentes de alho",
+        "Salsinha a gosto",
+        "Farinha de rosca para empanar",
+        "Óleo para fritar"
+      ],
+      "modoPreparo": [
+        "1. Refogue o alho e cebola, acrescente o frango e temperos.",
+        "2. Ferva a água com o leite e caldo de galinha, adicione a farinha até formar uma massa.",
+        "3. Recheie com o frango, modele em formato de coxinha.",
+        "4. Passe no ovo batido e farinha de rosca.",
+        "5. Frite em óleo quente até dourar."
+      ],
+      "informacoesAdicionais": "Rendimento: cerca de 30 unidades. Ótimo para festas!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Pudim de Leite Condensado",
+      "descricao": "Clássico brasileiro, cremoso e com aquele caramelo perfeito!",
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "1 medida (da lata) de leite",
+        "3 ovos",
+        "1 xícara de açúcar para a calda"
+      ],
+      "modoPreparo": [
+        "1. Derreta o açúcar em fogo baixo até formar caramelo, unte a forma.",
+        "2. Bata no liquidificador os outros ingredientes.",
+        "3. Despeje na forma caramelizada.",
+        "4. Asse em banho-maria por 1 hora.",
+        "5. Espere esfriar completamente antes de desenformar."
+      ],
+      "informacoesAdicionais": "Deixe na geladeira por 4 horas antes de servir. Rendimento: 8 porções.",
+      "imageURL": ""
+    },
+    {
+      "nome": "Acarajé",
+      "descricao": "Delícia da culinária baiana, recheado com vatapá e camarão!",
+      "ingredientes": [
+        "500g de feijão fradinho",
+        "2 cebolas",
+        "Sal a gosto",
+        "Azeite de dendê para fritar",
+        "Vatapá para recheio",
+        "Camarão seco para recheio"
+      ],
+      "modoPreparo": [
+        "1. Deixe o feijão de molho e descasque retirando a pele.",
+        "2. Bata no processador com cebola e sal até formar uma pasta.",
+        "3. Frite colheradas da massa em azeite de dendê bem quente.",
+        "4. Corte ao meio e recheie com vatapá e camarão."
+      ],
+      "informacoesAdicionais": "Tradicionalmente vendido pelas baianas no tabuleiro. Rendimento: 15 unidades.",
+      "imageURL": ""
+    },
+    {
+      "nome": "Canjica",
+      "descricao": "Doce cremoso perfeito para as festas juninas!",
+      "ingredientes": [
+        "2 xícaras de canjica branca",
+        "1 lata de leite condensado",
+        "1 litro de leite",
+        "5 colheres de açúcar",
+        "1 pau de canela",
+        "Canela em pó para polvilhar"
+      ],
+      "modoPreparo": [
+        "1. Deixe a canjica de molho por 6 horas.",
+        "2. Cozinhe na pressão com água por 30 minutos.",
+        "3. Escorra, acrescente os outros ingredientes e cozinhe por 20 minutos.",
+        "4. Sirva polvilhado com canela."
+      ],
+      "informacoesAdicionais": "Pode ser servida quente ou fria. Rendimento: 10 porções.",
+      "imageURL": ""
+    },
+    {
+      "nome": "Baião de Dois",
+      "descricao": "Arroz com feijão nordestino, uma explosão de sabores!",
+      "ingredientes": [
+        "2 xícaras de arroz",
+        "1 xícara de feijão verde",
+        "200g de queijo coalho",
+        "150g de carne seca",
+        "1 cebola",
+        "2 dentes de alho",
+        "Coentro a gosto",
+        "1 colher de manteiga de garrafa"
+      ],
+      "modoPreparo": [
+        "1. Cozinhe o feijão até ficar al dente.",
+        "2. Refogue alho, cebola e carne seca.",
+        "3. Acrescente o arroz e feijão com sua água.",
+        "4. Quando quase seco, adicione o queijo em cubos e a manteiga.",
+        "5. Finalize com coentro."
+      ],
+      "informacoesAdicionais": "Sirva com farofa e pimenta. Rendimento: 6 porções.",
+      "imageURL": ""
+    },
+    {
+      "nome": "Strogonoff de Frango",
+      "descricao": "Cremoso e saboroso, perfeito para almoços em família!",
+      "ingredientes": [
+        "500g de peito de frango em cubos",
+        "1 cebola picada",
+        "2 dentes de alho picados",
+        "1 colher (sopa) de mostarda",
+        "1 colher (sopa) de ketchup",
+        "1 lata de creme de leite",
+        "1 colher (sopa) de molho inglês",
+        "Sal e pimenta a gosto",
+        "Batata palha para acompanhar"
+      ],
+      "modoPreparo": [
+        "1. Doure o frango com alho e cebola em uma panela.",
+        "2. Acrescente a mostarda, ketchup e molho inglês.",
+        "3. Refogue por 5 minutos e adicione o creme de leite.",
+        "4. Cozinhe em fogo baixo por 10 minutos.",
+        "5. Sirva com arroz branco e batata palha."
+      ],
+      "informacoesAdicionais": "Rendimento: 4 porções. Dica: pode substituir o frango por carne ou cogumelos.",
+      "imageURL": ""
+    },
+    {
+      "nome": "Farofa de Bacon",
+      "descricao": "Crocrante e saborosa, o acompanhamento perfeito para churrasco!",
+      "ingredientes": [
+        "200g de bacon em cubos",
+        "2 xícaras de farinha de mandioca",
+        "1 cebola picada",
+        "2 ovos",
+        "Salsinha picada",
+        "Sal a gosto"
+      ],
+      "modoPreparo": [
+        "1. Frite o bacon até ficar crocante e reserve.",
+        "2. Na mesma gordura, refogue a cebola.",
+        "3. Acrescente os ovos e mexa até cozinhar.",
+        "4. Junte a farinha de mandioca e o bacon.",
+        "5. Finalize com salsinha."
+      ],
+      "informacoesAdicionais": "Rendimento: 6 porções. Fica ótima com feijoada!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Bolo de Cenoura com Cobertura de Chocolate",
+      "descricao": "Clássico brasileiro, fofinho e com aquela calda irresistível!",
+      "ingredientes": [
+        "3 cenouras médias",
+        "3 ovos",
+        "1 xícara de óleo",
+        "2 xícaras de açúcar",
+        "2 xícaras de farinha de trigo",
+        "1 colher (sopa) de fermento",
+        "1 xícara de chocolate em pó",
+        "1 colher (sopa) de manteiga",
+        "1 lata de leite condensado"
+      ],
+      "modoPreparo": [
+        "1. Bata no liquidificador as cenouras, ovos e óleo.",
+        "2. Misture com os ingredientes secos e asse por 40 minutos.",
+        "3. Para a cobertura, misture todos os ingredientes em uma panela até engrossar.",
+        "4. Despeje sobre o bolo frio."
+      ],
+      "informacoesAdicionais": "Rendimento: 12 fatias. Melhor se consumido no mesmo dia!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Tapioca Recheada",
+      "descricao": "Opção leve e versátil para café da manhã ou lanche!",
+      "ingredientes": [
+        "2 xícaras de goma de tapioca hidratada",
+        "Recheio a gosto (queijo, coco, goiabada etc.)"
+      ],
+      "modoPreparo": [
+        "1. Peneire a goma em uma frigideira antiaderente quente.",
+        "2. Espere firmar e vire para dourar do outro lado.",
+        "3. Adicione o recheio escolhido e dobre."
+      ],
+      "informacoesAdicionais": "Dica: experimente recheios doces e salgados! Rendimento: 4 unidades.",
+      "imageURL": ""
+    },
+    {
+      "nome": "Cuscuz Paulista",
+      "descricao": "Versão incrementada do cuscuz, perfeito para ocasiões especiais!",
+      "ingredientes": [
+        "2 xícaras de farinha de milho",
+        "2 xícaras de água",
+        "1 lata de atum",
+        "1 tomate picado",
+        "1 pimentão picado",
+        "Azeitonas",
+        "Ovos cozidos",
+        "Ervilha",
+        "Temperos a gosto"
+      ],
+      "modoPreparo": [
+        "1. Misture a farinha com água e temperos.",
+        "2. Em uma forma, alterne camadas da farinha úmida com os outros ingredientes.",
+        "3. Deixe descansar por 2 horas.",
+        "4. Desenforme e sirva."
+      ],
+      "informacoesAdicionais": "Rendimento: 8 fatias. Pode ser servido frio ou morno.",
+      "imageURL": ""
+    },
+    {
+      "nome": "Arroz Doce",
+      "descricao": "Confort food que remete à infância, cremoso e perfumado!",
+      "ingredientes": [
+        "1 xícara de arroz",
+        "1 litro de leite",
+        "1 lata de leite condensado",
+        "Canela em pau e em pó",
+        "Cravo",
+        "Casca de limão"
+      ],
+      "modoPreparo": [
+        "1. Cozinhe o arroz com água e especiarias.",
+        "2. Quando seco, acrescente o leite aos poucos.",
+        "3. Adicione o leite condensado e mexa até cremoso.",
+        "4. Sirva polvilhado com canela."
+      ],
+      "informacoesAdicionais": "Rendimento: 6 porções. Ideal para dias frios!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Escondidinho de Carne Seca",
+      "descricao": "Camadas de purê e carne que vão derreter na boca!",
+      "ingredientes": [
+        "500g de carne seca desfiada",
+        "1kg de mandioca cozida",
+        "2 colheres de manteiga",
+        "1 xícara de leite",
+        "Queijo para gratinar"
+      ],
+      "modoPreparo": [
+        "1. Prepare o purê com a mandioca, manteiga e leite.",
+        "2. Refogue a carne seca já dessalgada.",
+        "3. Em um refratário, alterne camadas de purê e carne.",
+        "4. Finalize com queijo e leve ao forno para gratinar."
+      ],
+      "informacoesAdicionais": "Rendimento: 8 porções. Sirva com pimenta!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Quibe de Forno",
+      "descricao": "Versão mais leve do quibe tradicional, igualmente saborosa!",
+      "ingredientes": [
+        "2 xícaras de trigo para quibe",
+        "500g de carne moída",
+        "1 cebola grande",
+        "Hortelã fresca",
+        "Sal e pimenta",
+        "Azeite"
+      ],
+      "modoPreparo": [
+        "1. Hidrate o trigo por 30 minutos.",
+        "2. Misture todos os ingredientes.",
+        "3. Coloque em forma untada e regue com azeite.",
+        "4. Asse por 40 minutos em forno médio."
+      ],
+      "informacoesAdicionais": "Rendimento: 6 porções. Pode ser servido com tahine.",
+      "imageURL": ""
+    },
+    {
+      "nome": "Pamonha Salgada",
+      "descricao": "Tradição caipira feita com milho fresco, simples e deliciosa!",
+      "ingredientes": [
+        "6 espigas de milho verde",
+        "1 xícara de leite",
+        "Sal",
+        "Palha de milho para embrulhar"
+      ],
+      "modoPreparo": [
+        "1. Rale o milho e bata com o leite no liquidificador.",
+        "2. Tempere com sal.",
+        "3. Embrulhe nas palhas e amarre.",
+        "4. Cozinhe em água fervente por 40 minutos."
+      ],
+      "informacoesAdicionais": "Rendimento: 8 unidades. Sirva com manteiga!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Risoto de Camarão",
+      "descricao": "Cremoso e sofisticado, ideal para ocasiões especiais!",
+      "ingredientes": [
+        "300g de camarão limpo",
+        "1 xícara de arroz arbóreo",
+        "1 cebola picada",
+        "2 dentes de alho",
+        "1/2 xícara de vinho branco",
+        "1 litro de caldo de peixe",
+        "2 colheres de manteiga",
+        "Queijo parmesão ralado"
+      ],
+      "modoPreparo": [
+        "1. Refogue o alho e cebola na manteiga.",
+        "2. Acrescente o arroz e vinho, deixe evaporar.",
+        "3. Adicione o caldo aos poucos, mexendo sempre.",
+        "4. Quando quase pronto, junte os camarões.",
+        "5. Finalize com parmesão."
+      ],
+      "informacoesAdicionais": "Rendimento: 4 porções. Sirva imediatamente!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Pastel de Feira",
+      "descricao": "Crocante e recheado, o queridinho das feiras livres!",
+      "ingredientes": [
+        "500g de farinha de trigo",
+        "1 xícara de água morna",
+        "1 colher (sopa) de cachaça",
+        "1 colher (sopa) de óleo",
+        "1 colher (chá) de sal",
+        "Recheio a gosto (carne, queijo, frango, etc.)",
+        "Óleo para fritar"
+      ],
+      "modoPreparo": [
+        "1. Misture todos os ingredientes da massa até ficar homogênea",
+        "2. Sove bem e deixe descansar por 30 minutos",
+        "3. Abra a massa fina com rolo",
+        "4. Coloque o recheio, dobre e feche as bordas",
+        "5. Frite em óleo quente até dourar"
+      ],
+      "informacoesAdicionais": "Rendimento: cerca de 15 pastéis. Sirva com caldo de cana!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Virado à Paulista",
+      "descricao": "Prato típico de São Paulo que conquista pelo sabor!",
+      "ingredientes": [
+        "2 xícaras de feijão cozido",
+        "3 xícaras de farinha de mandioca",
+        "4 ovos fritos",
+        "200g de linguiça toscana",
+        "1 cebola grande",
+        "2 dentes de alho",
+        "Couve refogada",
+        "Banana à milanesa",
+        "Torresmo"
+      ],
+      "modoPreparo": [
+        "1. Refogue o alho e cebola, acrescente o feijão e amasse",
+        "2. Adicione a farinha aos poucos até formar um pirão",
+        "3. Frite a linguiça em rodelas",
+        "4. Prepare os ovos fritos",
+        "5. Sirva tudo junto com couve e banana frita"
+      ],
+      "informacoesAdicionais": "Rendimento: 4 porções. Tradicional às segundas-feiras!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Romeu e Julieta",
+      "descricao": "Clássica combinação doce de queijo e goiabada!",
+      "ingredientes": [
+        "200g de queijo minas frescal",
+        "200g de goiabada cascão",
+        "Canela em pó para polvilhar"
+      ],
+      "modoPreparo": [
+        "1. Corte o queijo em fatias médias",
+        "2. Corte a goiabada em fatias do mesmo tamanho",
+        "3. Monte intercalando uma fatia de queijo e uma de goiabada",
+        "4. Polvilhe com canela a gosto"
+      ],
+      "informacoesAdicionais": "Rendimento: 4 porções. Fica ótimo com café!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Galinhada",
+      "descricao": "Arroz amarelinho com frango que lembra comida de vó!",
+      "ingredientes": [
+        "1 frango cortado em pedaços",
+        "3 xícaras de arroz",
+        "2 tomates picados",
+        "1 pimentão picado",
+        "1 cebola picada",
+        "2 dentes de alho",
+        "Açafrão ou curry",
+        "Cheiro-verde",
+        "1 colher (sopa) de colorau"
+      ],
+      "modoPreparo": [
+        "1. Tempere o frango com alho e sal",
+        "2. Doure o frango e reserve",
+        "3. No mesmo caldo, refogue os vegetais",
+        "4. Acrescente o arroz e o tempero amarelo",
+        "5. Coloque água quente e cozinhe até secar",
+        "6. Volte o frango e finalize com cheiro-verde"
+      ],
+      "informacoesAdicionais": "Rendimento: 6 porções. Sirva com limão e pimenta!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Manjar de Coco",
+      "descricao": "Sobremesa cremosa que derrete na boca!",
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "1 medida (da lata) de leite",
+        "1 medida de água",
+        "100g de coco ralado",
+        "7 colheres (sopa) de amido de milho",
+        "1 xícara de açúcar para calda",
+        "Ameixas para decorar"
+      ],
+      "modoPreparo": [
+        "1. Misture todos os ingredientes (exceto açúcar) e leve ao fogo até engrossar",
+        "2. Despeje em forma molhada e deixe esfriar",
+        "3. Faça uma calda com o açúcar e um pouco de água",
+        "4. Desenforme e cubra com a calda e ameixas"
+      ],
+      "informacoesAdicionais": "Rendimento: 8 porções. Leve à geladeira por 4 horas antes de servir",
+      "imageURL": ""
+    },
+    {
+      "nome": "Caldo Verde",
+      "descricao": "Sopa reconfortante perfeita para dias frios!",
+      "ingredientes": [
+        "3 batatas médias",
+        "1 maço de couve",
+        "1 linguiça calabresa",
+        "1 litro de água",
+        "2 dentes de alho",
+        "Sal e pimenta",
+        "Azeite"
+      ],
+      "modoPreparo": [
+        "1. Cozinhe as batatas em água com sal",
+        "2. Bata as batatas com a água do cozimento",
+        "3. Refogue o alho e a linguiça em rodelas",
+        "4. Junte ao caldo de batata e cozinhe por 10 minutos",
+        "5. Acrescente a couve bem fininha e sirva"
+      ],
+      "informacoesAdicionais": "Rendimento: 4 porções. Ótimo com pão francês!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Pavê de Chocolate",
+      "descricao": "Sobremesa fácil que parece um pudim de biscoito!",
+      "ingredientes": [
+        "1 pacote de biscoito maisena",
+        "1 lata de leite condensado",
+        "1 medida (da lata) de leite",
+        "2 colheres de chocolate em pó",
+        "1 colher de manteiga",
+        "Chocolate granulado para decorar"
+      ],
+      "modoPreparo": [
+        "1. Misture o leite condensado, leite, chocolate e manteiga em uma panela",
+        "2. Leve ao fogo até engrossar",
+        "3. Monte em camadas: biscoito, creme, biscoito, creme",
+        "4. Finalize com granulado e leve à geladeira por 4 horas"
+      ],
+      "informacoesAdicionais": "Rendimento: 8 porções. Pode ser feito com outros sabores!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Carne de Panela com Batata",
+      "descricao": "Carne macia que desmancha e um caldo saboroso!",
+      "ingredientes": [
+        "1kg de músculo ou acém",
+        "4 batatas médias",
+        "2 cebolas",
+        "3 dentes de alho",
+        "2 tomates",
+        "1 pimentão",
+        "Cheiro-verde",
+        "3 colheres de óleo",
+        "Sal e pimenta"
+      ],
+      "modoPreparo": [
+        "1. Doure a carne em pressão com óleo",
+        "2. Adicione os temperos picados e refogue",
+        "3. Cubra com água e cozinhe na pressão por 40 minutos",
+        "4. Acrescente as batatas e cozinhe por mais 15 minutos",
+        "5. Ajuste o sal e finalize com cheiro-verde"
+      ],
+      "informacoesAdicionais": "Rendimento: 6 porções. Sirva com arroz branco!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Mousse de Maracujá",
+      "descricao": "Sobremesa leve e refrescante, perfeita para o verão!",
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "1 medida (da lata) de suco de maracujá",
+        "1 lata de creme de leite",
+        "Polpa de 1 maracujá para calda"
+      ],
+      "modoPreparo": [
+        "1. Bata todos os ingredientes no liquidificador",
+        "2. Despeje em taças e leve à geladeira por 4 horas",
+        "3. Faça uma calda com a polpa e açúcar",
+        "4. Decore com a calda na hora de servir"
+      ],
+      "informacoesAdicionais": "Rendimento: 6 porções. Fica lindo com raspas de chocolate branco!",
+      "imageURL": ""
+    },
+    {
+      "nome": "Empadão Goiano",
+      "descricao": "Torta cremosa recheada com os sabores do cerrado!",
+      "ingredientes": [
+        "500g de peito de frango",
+        "200g de linguiça calabresa",
+        "1 xícara de palmito",
+        "1 xícara de queijo minas",
+        "2 ovos cozidos",
+        "2 colheres de requeijão",
+        "Massa para empadão",
+        "Azeitonas"
+      ],
+      "modoPreparo": [
+        "1. Cozinhe e desfie o frango",
+        "2. Refogue com a linguiça e temperos",
+        "3. Misture os outros ingredientes do recheio",
+        "4. Forre uma forma com massa, coloque o recheio e cubra",
+        "5. Asse por 40 minutos"
+      ],
+      "informacoesAdicionais": "Rendimento: 8 fatias. Tradicional de Goiás!",
+      "imageURL": ""
+    }
+  ]
+}
