@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const NavBar = () => {
   return (
-    <>
+    <header className="flex-shrink-0">
       <div className="w-full h-5 bg-brand-yellow"></div>
       <div className="space-between justify-between my-3 items-center mx-7 flex mb-4">
         <div>
@@ -31,7 +31,7 @@ const NavBar = () => {
           <p>Pesquisar</p>
         </div>
       </div>
-    </>
+    </header>
   );
 };
 
