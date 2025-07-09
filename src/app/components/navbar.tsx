@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <header className="flex-shrink-0">
       <div className="w-full h-5 bg-brand-yellow"></div>
-      <div className="space-between justify-between my-3 items-center mx-7 flex mb-4">
+      <div className="space-between justify-between my-2 items-center mx-7 flex mb-2">
         <div>
           <Image
             src={"/logo_img.svg"}
