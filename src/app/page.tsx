@@ -4,9 +4,6 @@ import recipes from "../backend/recipes.json";
 export default function Home() {
   return (
     <div className="gap-16 w-full">
-      <div className="relative w-full h-[270px]">
-        <Image src="/banner.png" alt="Banner" fill priority />
-      </div>
       {/* {recipes.receitas.map((receita, idx) => (
       <div key={idx} className="w-full bg max-w-md p-4 border rounded shadow">
       <img
