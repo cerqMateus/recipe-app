@@ -7,7 +7,7 @@ const NavBar = () => {
     <header className="flex-shrink-0">
       <div className="w-full h-5 bg-brand-yellow"></div>
       <div className="space-between justify-between my-2 items-center mx-7 flex mb-2">
-        <div>
+        <div className="p-2">
           <Image
             src={"/logo_img.svg"}
             width={150}
@@ -16,13 +16,13 @@ const NavBar = () => {
           />
         </div>
         <div className="">
-          <Button className="font-semibold text-lg" variant="ghost">
+          <Button className="font-semibold text-md" variant="ghost">
             Home
           </Button>
-          <Button className="font-semibold text-lg" variant="ghost">
+          <Button className="font-semibold text-md" variant="ghost">
             Receitas
           </Button>
-          <Button className="font-semibold text-lg" variant="ghost">
+          <Button className="font-semibold text-md" variant="ghost">
             Sobre nós
           </Button>
         </div>
