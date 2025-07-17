@@ -42,7 +42,11 @@ const NavBar = () => {
           >
             Me Surpreenda
           </Button>
-          <Button className="font-semibold text-lg" variant="ghost">
+          <Button
+            className="font-semibold text-lg"
+            variant="ghost"
+            onClick={() => router.push("/about")}
+          >
             Sobre nós
           </Button>
         </div>
