@@ -122,3 +122,28 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Classes utilitárias para o carrossel */
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Animação da barra de progresso do carrossel */
+@keyframes progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
