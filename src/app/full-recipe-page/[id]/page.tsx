@@ -35,42 +35,42 @@ export default function FullRecipePage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header com imagem da receita */}
-      <div className="relative w-full h-[400px] bg-gray-200">
-        {receita.imageURL ? (
-          <Image
-            src={receita.imageURL}
-            alt={receita.nome}
-            fill
-            className="object-cover"
-            priority
-          />
-        ) : (
-          <div className="w-full h-full bg-gradient-to-br from-brand-yellow to-yellow-300 flex items-center justify-center">
-            <span className="text-white font-bold text-6xl">
-              {receita.nome.charAt(0).toUpperCase()}
-            </span>
+      <div className="relative w-full py-8 bg-white">
+        <div className="max-w-4xl mx-auto px-4 flex items-center gap-6">
+          {/* Botão voltar */}
+          <button
+            onClick={() => router.push("/")}
+            className="bg-gray-100 hover:bg-gray-200 rounded-full p-3 transition-all duration-200 shadow-md"
+          >
+            <ArrowLeft className="w-6 h-6 text-gray-800" />
+          </button>
+
+          {/* Imagem circular pequena */}
+          <div className="relative w-24 h-24 flex-shrink-0">
+            {receita.imageURL ? (
+              <Image
+                src={receita.imageURL}
+                alt={receita.nome}
+                fill
+                className="object-cover rounded-full"
+                priority
+              />
+            ) : (
+              <div className="w-full h-full bg-gradient-to-br from-brand-yellow to-yellow-300 rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-2xl">
+                  {receita.nome.charAt(0).toUpperCase()}
+                </span>
+              </div>
+            )}
           </div>
-        )}
 
-        {/* Overlay escuro para melhor legibilidade */}
-        <div className="absolute inset-0 bg-black bg-opacity-30" />
-
-        {/* Botão voltar */}
-        <button
-          onClick={() => router.push("/")}
-          className="absolute top-6 left-6 bg-white bg-opacity-90 hover:bg-opacity-100 rounded-full p-3 transition-all duration-200 shadow-lg"
-        >
-          <ArrowLeft className="w-6 h-6 text-gray-800" />
-        </button>
-
-        {/* Título da receita */}
-        <div className="absolute bottom-6 left-6 right-6">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-2 drop-shadow-lg">
-            {receita.nome}
-          </h1>
-          <p className="text-lg text-white opacity-90 drop-shadow">
-            {receita.descricao}
-          </p>
+          {/* Título da receita */}
+          <div>
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
+              {receita.nome}
+            </h1>
+            <p className="text-lg text-gray-600">{receita.descricao}</p>
+          </div>
         </div>
       </div>
 
