@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Search } from "lucide-react";
 import {
-  Command,
   CommandDialog,
   CommandEmpty,
   CommandGroup,

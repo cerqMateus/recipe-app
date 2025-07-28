@@ -1,7 +1,6 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import Image from "next/image";
 import { ArrowLeft, Heart, Users, ChefHat } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -64,7 +63,7 @@ export default function AboutPage() {
             </p>
 
             <p className="text-lg leading-relaxed text-gray-700 mb-6">
-              Foi assim que nasceu o <strong>"Delícias à Mesa"</strong> - não
+              Foi assim que nasceu o <strong>Delícias à Mesa</strong> - não
               apenas como um site de receitas, mas como um lar digital onde cada
               prato conta uma história, onde cada ingrediente carrega memórias
               afetivas, e onde cada receita é um convite para reunir pessoas ao
@@ -123,11 +122,11 @@ export default function AboutPage() {
           <div className="text-center">
             <h2 className="text-3xl font-bold mb-6">Um Convite Especial</h2>
             <p className="text-lg leading-relaxed mb-6 opacity-90">
-              Hoje, o "Delícias à Mesa" é mais que um site - é uma grande
-              família espalhada pelo Brasil e pelo mundo. Cada pessoa que
-              prepara uma de nossas receitas adiciona seu próprio tempero, sua
-              própria história, e assim nossa coleção cresce não apenas em
-              número, mas em alma.
+              Hoje, o Delícias à Mesa é mais que um site - é uma grande família
+              espalhada pelo Brasil e pelo mundo. Cada pessoa que prepara uma de
+              nossas receitas adiciona seu próprio tempero, sua própria
+              história, e assim nossa coleção cresce não apenas em número, mas
+              em alma.
             </p>
             <p className="text-lg leading-relaxed opacity-90">
               <strong>

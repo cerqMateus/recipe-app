@@ -1,4 +1,3 @@
-import Image from "next/image";
 import recipes from "../backend/recipes.json";
 import RecipeCarousel from "./components/RecipeCarousel";
 import Banner from "./components/banner";
