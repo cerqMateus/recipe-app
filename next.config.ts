@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   devIndicators: false,
   images: {
-    remotePatterns: [
+   remotePatterns: [
       {
         protocol: 'https',
         hostname: 'static.itdg.com.br',
@@ -23,6 +23,18 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'canaldareceita.com.br',
+      },
+      {
+        protocol: 'https',
+        hostname: 's2-receitas.glbimg.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.mococa.com.br',
+      },
+      {
+        protocol: 'https',
+        hostname: 'blog.lojasedmil.com.br',
       },
     ],
   },
