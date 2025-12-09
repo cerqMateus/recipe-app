@@ -11,10 +11,12 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command";
-import recipes from "../../backend/recipes.json";
+import type { Recipe } from "@/types/recipe";
 
 export default function SearchComponent() {
   const [open, setOpen] = useState(false);
+  const [recipes, setRecipes] = useState<Recipe[]>([]);
+  const [loading, setLoading] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -29,9 +31,27 @@ export default function SearchComponent() {
     return () => document.removeEventListener("keydown", down);
   }, []);
 
-  const handleSelectRecipe = (recipeIndex: number) => {
+  useEffect(() => {
+    if (open && recipes.length === 0) {
+      const fetchRecipes = async () => {
+        setLoading(true);
+        try {
+          const response = await fetch("/api/recipes");
+          const data = await response.json();
+          setRecipes(data.receitas);
+        } catch (error) {
+          console.error("Error fetching recipes:", error);
+        } finally {
+          setLoading(false);
+        }
+      };
+      fetchRecipes();
+    }
+  }, [open, recipes.length]);
+
+  const handleSelectRecipe = (recipeId: string) => {
     setOpen(false);
-    router.push(`/full-recipe-page/${recipeIndex}`);
+    router.push(`/full-recipe-page/${recipeId}`);
   };
 
   return (
@@ -50,29 +70,37 @@ export default function SearchComponent() {
       <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput placeholder="Digite o nome da receita..." />
         <CommandList>
-          <CommandEmpty>Nenhuma receita encontrada.</CommandEmpty>
-          <CommandGroup heading="Receitas">
-            {recipes.receitas.map((receita, index) => (
-              <CommandItem
-                key={index}
-                value={receita.nome}
-                onSelect={() => handleSelectRecipe(index)}
-                className="cursor-pointer p-3"
-              >
-                <div className="flex items-center gap-3 w-full">
-                  <Search className="h-4 w-4 text-gray-400" />
-                  <div className="flex flex-col gap-1 flex-1">
-                    <span className="font-medium text-gray-900">
-                      {receita.nome}
-                    </span>
-                    <span className="text-sm text-gray-500 line-clamp-1">
-                      {receita.descricao}
-                    </span>
-                  </div>
-                </div>
-              </CommandItem>
-            ))}
-          </CommandGroup>
+          {loading ? (
+            <div className="p-4 text-center text-sm text-gray-500">
+              Carregando...
+            </div>
+          ) : (
+            <>
+              <CommandEmpty>Nenhuma receita encontrada.</CommandEmpty>
+              <CommandGroup heading="Receitas">
+                {recipes.map((receita) => (
+                  <CommandItem
+                    key={receita.id}
+                    value={receita.nome}
+                    onSelect={() => handleSelectRecipe(receita.id)}
+                    className="cursor-pointer p-3"
+                  >
+                    <div className="flex items-center gap-3 w-full">
+                      <Search className="h-4 w-4 text-gray-400" />
+                      <div className="flex flex-col gap-1 flex-1">
+                        <span className="font-medium text-gray-900">
+                          {receita.nome}
+                        </span>
+                        <span className="text-sm text-gray-500 line-clamp-1">
+                          {receita.descricao}
+                        </span>
+                      </div>
+                    </div>
+                  </CommandItem>
+                ))}
+              </CommandGroup>
+            </>
+          )}
         </CommandList>
       </CommandDialog>
     </>

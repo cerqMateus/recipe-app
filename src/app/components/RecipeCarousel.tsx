@@ -5,15 +5,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-
-interface Recipe {
-  nome: string;
-  descricao: string;
-  ingredientes: string[];
-  modoPreparo: string[];
-  informacoesAdicionais: string;
-  imageURL: string;
-}
+import type { Recipe } from "@/types/recipe";
 
 interface RecipeCarouselProps {
   recipes: Recipe[];
@@ -216,7 +208,9 @@ const RecipeCarousel = ({ recipes }: RecipeCarouselProps) => {
 
                   {/* Botão Ver Receita - sempre fixo no final */}
                   <button
-                    onClick={() => router.push(`/full-recipe-page/${idx}`)}
+                    onClick={() =>
+                      router.push(`/full-recipe-page/${receita.id}`)
+                    }
                     className="w-full bg-brand-yellow hover:bg-yellow-400 text-gray-800 font-semibold py-2 px-4 rounded-lg transition-colors duration-200 mt-auto"
                   >
                     Ver Receita Completa

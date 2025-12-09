@@ -2,19 +2,52 @@
 
 import { useParams } from "next/navigation";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { ArrowLeft, Clock, Users } from "lucide-react";
-import recipes from "../../../backend/recipes.json";
+import type { Recipe } from "@/types/recipe";
 
 export default function FullRecipePage() {
   const params = useParams();
   const router = useRouter();
-  const recipeIndex = parseInt(params.id as string);
+  const [receita, setReceita] = useState<Recipe | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
 
-  // Buscar a receita pelo índice
-  const receita = recipes.receitas[recipeIndex];
+  useEffect(() => {
+    const fetchRecipe = async () => {
+      try {
+        const response = await fetch(`/api/recipes/${params.id}`);
+        if (!response.ok) {
+          setError(true);
+          return;
+        }
+        const data = await response.json();
+        setReceita(data);
+      } catch (error) {
+        console.error("Error fetching recipe:", error);
+        setError(true);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-  if (!receita) {
+    fetchRecipe();
+  }, [params.id]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-800 mb-4">
+            Carregando receita...
+          </h1>
+        </div>
+      </div>
+    );
+  }
+
+  if (error || !receita) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">

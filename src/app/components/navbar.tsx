@@ -4,15 +4,30 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import SearchComponent from "./SearchComponent";
-import recipes from "../../backend/recipes.json";
+import { useEffect, useState } from "react";
 
 const NavBar = () => {
   const router = useRouter();
+  const [recipeIds, setRecipeIds] = useState<string[]>([]);
+
+  useEffect(() => {
+    const fetchRecipeIds = async () => {
+      try {
+        const response = await fetch("/api/recipes");
+        const data = await response.json();
+        setRecipeIds(data.receitas.map((r: { id: string }) => r.id));
+      } catch (error) {
+        console.error("Error fetching recipe IDs:", error);
+      }
+    };
+    fetchRecipeIds();
+  }, []);
 
   const handleSurpriseMe = () => {
-    // Gera um índice aleatório baseado no número total de receitas
-    const randomIndex = Math.floor(Math.random() * recipes.receitas.length);
-    router.push(`/full-recipe-page/${randomIndex}`);
+    if (recipeIds.length > 0) {
+      const randomIndex = Math.floor(Math.random() * recipeIds.length);
+      router.push(`/full-recipe-page/${recipeIds[randomIndex]}`);
+    }
   };
 
   return (
